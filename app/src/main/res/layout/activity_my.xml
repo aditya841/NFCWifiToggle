@@ -15,11 +15,11 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_above="@+id/textTag"-->
-        <!--android:layout_alignEnd="@+id/textView"-->
-        <!--android:onClick="writeTag"-->
-        <!--android:text="Write Tag" />-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textTag"
+        android:layout_centerHorizontal="true"
+        android:onClick="writeTag"
+        android:text="Write Tag" />
 </RelativeLayout>
